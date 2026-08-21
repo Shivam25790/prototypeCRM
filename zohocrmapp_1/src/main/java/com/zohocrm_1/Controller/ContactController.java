@@ -47,7 +47,7 @@ public class ContactController {
 		return "BillingList";
 
 	}
-
+// need to update all
 	@RequestMapping("/bills")
 	public String listOfbill(Model model) {
 		List<Billing> listBills = billingService.listBills();
